@@ -7,7 +7,7 @@
   <version>3.38.1-SNAPSHOT</version><!-- {x-version-update:google-cloud-firestore-admin:current} -->
   <packaging>jar</packaging>
   <name>Google Cloud Firestore Admin Client</name>
-  <url>https://github.com/googleapis/java-firestore</url>
+  <url>https://github.com/googleapis/google-cloud-java</url>
   <description>
     Java idiomatic client for Google Cloud Firestore Admin API.
   </description>
@@ -67,13 +67,11 @@
       <artifactId>grpc-stub</artifactId>
     </dependency>
 
-    <!-- Test dependencies -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <scope>test</scope>
     </dependency>
-    <!-- Need testing utility classes for generated gRPC clients tests -->
     <dependency>
       <groupId>com.google.api</groupId>
       <artifactId>gax</artifactId>
@@ -103,39 +101,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <reporting>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <configuration>
-          <show>protected</show>
-          <nohelp>true</nohelp>
-          <doclint>none</doclint>
-          <splitindex>true</splitindex>
-          <offlineLinks>
-            <offlineLink>
-              <url>${project.javadoc.protobufBaseURL}</url>
-              <location>../../../../../google-api-grpc/proto-google-cloud-firestore-admin-v1/target/site/apidocs/</location>
-            </offlineLink>
-            <offlineLink>
-              <url>${project.javadoc.protobufBaseURL}</url>
-              <location>../../../../../google-api-grpc/grpc-google-cloud-firestore-admin-v1/target/site/apidocs/</location>
-            </offlineLink>
-            <offlineLink>
-              <url>${project.javadoc.protobufBaseURL}</url>
-              <location>../../../../../google-api-grpc/proto-google-cloud-firestore-v1/target/site/apidocs/</location>
-            </offlineLink>
-            <offlineLink>
-              <url>${project.javadoc.protobufBaseURL}</url>
-              <location>../../../../../google-api-grpc/grpc-google-cloud-firestore-v1/target/site/apidocs/</location>
-            </offlineLink>
-          </offlineLinks>
-        </configuration>
-      </plugin>
-    </plugins>
-  </reporting>
 
   <build>
     <plugins>
