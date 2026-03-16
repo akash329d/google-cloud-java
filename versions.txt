@@ -976,3 +976,11 @@ proto-google-cloud-vectorsearch-v1:0.8.0:0.9.0-SNAPSHOT
 grpc-google-cloud-vectorsearch-v1:0.8.0:0.9.0-SNAPSHOT
 google-cloud-bigquery:2.61.0:2.62.0-SNAPSHOT
 google-cloud-bigquery-jdbc:0.5.0:0.6.0-SNAPSHOT
+google-cloud-firestore:3.38.0:3.38.1-SNAPSHOT
+google-cloud-firestore-admin:3.38.0:3.38.1-SNAPSHOT
+google-cloud-firestore-bom:3.38.0:3.38.1-SNAPSHOT
+grpc-google-cloud-firestore-admin-v1:3.38.0:3.38.1-SNAPSHOT
+grpc-google-cloud-firestore-v1:3.38.0:3.38.1-SNAPSHOT
+proto-google-cloud-firestore-admin-v1:3.38.0:3.38.1-SNAPSHOT
+proto-google-cloud-firestore-v1:3.38.0:3.38.1-SNAPSHOT
+proto-google-cloud-firestore-bundle-v1:3.38.0:3.38.1-SNAPSHOT
