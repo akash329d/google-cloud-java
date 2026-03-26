@@ -92,8 +92,9 @@ jobs:
           java-bigquery: java-bigquery/**
           java-bigquerystorage: java-bigquerystorage/**
           java-datastore: java-datastore/**
-          java-logging: java-logging/**
           java-logging-logback: java-logging-logback/**
+          java-logging: java-logging/**
+          java-pubsub: java-pubsub/**
           java-spanner: java-spanner/**
           sdk-platform-java: sdk-platform-java/**
   split-units:
